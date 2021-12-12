@@ -49,13 +49,14 @@ setup(
     ],
     dependency_links=[
          # Replace dependency links with numbered versions when it's released on PyPI
-        'git+https://github.com/edx/xblock-utils.git@v1.0.5#egg=xblock-utils==1.0.5',
+        'git+https://github.com/edx/xblock-utils.git@v1.2.0#egg=xblock-utils==1.2.0',
     ],
     install_requires=[
       
         'requests>=2.9.1,<3.0.0',
         'babelfish>=0.5.5,<0.6.0',
         'XBlock==1.3.1',
+         'pathlib==1.0.1',
         
     ],
     entry_points={
